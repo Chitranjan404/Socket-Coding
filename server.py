@@ -1,7 +1,7 @@
 import socket
 serv=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #st Arguemnet i.e. AFinet = ipv4, stream = tcp
-serv.bind(("192.168.1.11",1236))
+serv.bind(("****SERVER'S IP ADDRESS****",****PORT THROUGH WHICH SERVER AND CLIENT WILL COMMUNICATE****))
 serv.listen(5)
 c,addr=serv.accept()
 #pri
